@@ -2,6 +2,10 @@ package com.example.demo.pojo;
 
 public class DataParam {
 
+    public String aesKey;
+
+    public String data;
+
     public String getData() {
         return data;
     }
@@ -10,7 +14,6 @@ public class DataParam {
         this.data = data;
     }
 
-    String data;
 
     public String getAesKey() {
         return aesKey;
@@ -20,6 +23,5 @@ public class DataParam {
         this.aesKey = aesKey;
     }
 
-    String aesKey;
 
 }
