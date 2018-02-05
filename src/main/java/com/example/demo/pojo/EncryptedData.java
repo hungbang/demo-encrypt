@@ -1,15 +1,10 @@
 package com.example.demo.pojo;
 
-import javax.validation.constraints.NotNull;
-
-
 public class EncryptedData {
 
 
-    @NotNull
     private String encryptionMethod;
 
-    @NotNull
     private String cipherValue;
 
     public String getEncryptionMethod() {
